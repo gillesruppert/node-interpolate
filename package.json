@@ -1,0 +1,36 @@
+{
+  "name": "interpolate",
+  "description": "A simple interpolate function",
+  "version": "0.1.0",
+  "author": {
+    "name": "Gilles Ruppert",
+    "email": "gilles@madeofbytes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gillesruppert/node-interpolate"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gillesruppert/node-interpolate/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "utilities",
+    "interpolate"
+  ],
+  "main": "./lib/interpolate.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
